@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <select id="continent">
+    <option value="all">All</option>
+    <option value="Africa">Africa</option>
+    <option value="Europe">Europe</option>
+    <option value="Asia">Asia</option>
+    <option value="Oceania">Oceania</option>
+    <option value="Americas">Americas</option>
+    </select>
+
+    <select id="mode">
+        <option value="flag">Flags</option>
+        <option value="capital">Capitals</option>
+    </select>
+
+    <div class="container">
+
+        <h1>Flag Quiz</h1>
+
+        <h2>Score: <span id="score">0</span></h2>
+
+        <img id="flag" src="">
+
+        <div id="options"></div>
+
+        <p id="message"></p>
+
+    </div>
+
+     <canvas id="chart"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
